@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow:
+
+Sitemap: https://pronftdesign.com/sitemap.xml
+Image Sitemap: https://pronftdesign.com/images_sitemap.xml

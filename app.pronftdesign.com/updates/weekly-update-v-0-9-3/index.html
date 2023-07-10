@@ -1,0 +1,1295 @@
+<!DOCTYPE html>
+<html lang="en-US" >
+
+<!-- Mirrored from spockanalytics.xyz/updates/weekly-update-v-0-9-3/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Jul 2023 23:20:46 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- WP_HEAD() START -->
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v20.9 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Weekly Update V 0.9.3 - DApp Analytics &amp; Growth Product</title>
+	<link rel="canonical" href="index.html" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Weekly Update V 0.9.3 - DApp Analytics &amp; Growth Product" />
+	<meta property="og:description" content="This week in our weekly update we have fixed some old issues and brought in some new features. What are they? let’s find out. What’s New: To access essential metrics data immediately, users can provide their smart contract details to the app. Within minutes of data synchronization, Spock will present limited dApp data, which will [&hellip;]" />
+	<meta property="og:url" content="index.html" />
+	<meta property="og:site_name" content="DApp Analytics &amp; Growth Product" />
+	<meta property="article:modified_time" content="2023-04-09T11:40:22+00:00" />
+	<meta property="og:image" content="../../wp-content/uploads/2023/04/V0.9.3.png" />
+	<meta property="og:image:width" content="1500" />
+	<meta property="og:image:height" content="750" />
+	<meta property="og:image:type" content="image/png" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@spockanalytics" />
+	<meta name="twitter:label1" content="Est. reading time" />
+	<meta name="twitter:data1" content="2 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://spockanalytics.xyz/updates/weekly-update-v-0-9-3/","url":"https://spockanalytics.xyz/updates/weekly-update-v-0-9-3/","name":"Weekly Update V 0.9.3 - DApp Analytics &amp; Growth Product","isPartOf":{"@id":"https://spockanalytics.xyz/#website"},"primaryImageOfPage":{"@id":"https://spockanalytics.xyz/updates/weekly-update-v-0-9-3/#primaryimage"},"image":{"@id":"https://spockanalytics.xyz/updates/weekly-update-v-0-9-3/#primaryimage"},"thumbnailUrl":"https://spockanalytics.xyz/wp-content/uploads/2023/04/V0.9.3.png","datePublished":"2023-04-09T11:40:20+00:00","dateModified":"2023-04-09T11:40:22+00:00","breadcrumb":{"@id":"https://spockanalytics.xyz/updates/weekly-update-v-0-9-3/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://spockanalytics.xyz/updates/weekly-update-v-0-9-3/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://spockanalytics.xyz/updates/weekly-update-v-0-9-3/#primaryimage","url":"https://spockanalytics.xyz/wp-content/uploads/2023/04/V0.9.3.png","contentUrl":"https://spockanalytics.xyz/wp-content/uploads/2023/04/V0.9.3.png","width":1500,"height":750},{"@type":"BreadcrumbList","@id":"https://spockanalytics.xyz/updates/weekly-update-v-0-9-3/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://spockanalytics.xyz/"},{"@type":"ListItem","position":2,"name":"Weekly Update V 0.9.3"}]},{"@type":"WebSite","@id":"https://spockanalytics.xyz/#website","url":"https://spockanalytics.xyz/","name":"DApp Analytics &amp; Growth Product","description":"","publisher":{"@id":"https://spockanalytics.xyz/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://spockanalytics.xyz/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://spockanalytics.xyz/#organization","name":"DApp Analytics &amp; Growth Product","url":"https://spockanalytics.xyz/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://spockanalytics.xyz/#/schema/logo/image/","url":"https://spockanalytics.xyz/wp-content/uploads/2023/02/Logo.png","contentUrl":"https://spockanalytics.xyz/wp-content/uploads/2023/02/Logo.png","width":119,"height":24,"caption":"DApp Analytics &amp; Growth Product"},"image":{"@id":"https://spockanalytics.xyz/#/schema/logo/image/"},"sameAs":["https://twitter.com/spockanalytics","https://spockanalytics.medium.com/","https://discord.gg/QH8guZpwtG"]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='stylesheet' id='wp-block-library-css' href='../../wp-includes/css/dist/block-library/style.min3781.css?ver=6.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='classic-theme-styles-css' href='../../wp-includes/css/classic-themes.min3781.css?ver=6.2.2' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='contact-form-7-css' href='../../wp-content/plugins/contact-form-7/includes/css/stylesf2b4.css?ver=5.7.7' type='text/css' media='all' />
+<link rel='stylesheet' id='oxygen-css' href='../../wp-content/plugins/oxygen/component-framework/oxygenf9b8.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wpcf7-redirect-script-frontend-css' href='../../wp-content/plugins/wpcf7-redirect/build/css/wpcf7-redirect-frontend.min3781.css?ver=6.2.2' type='text/css' media='all' />
+<script type='text/javascript' src='../../wp-includes/js/jquery/jquery.min5aed.js?ver=3.6.4' id='jquery-core-js'></script>
+<link rel="https://api.w.org/" href="../../wp-json/index.html" /><link rel="alternate" type="application/json" href="../../wp-json/wp/v2/updates/751.json" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../xmlrpc0db0.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../../wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 6.2.2" />
+<link rel='shortlink' href='../../indexf294.html?p=751' />
+<link rel="alternate" type="application/json+oembed" href="../../wp-json/oembed/1.0/embed9f4f.json?url=https%3A%2F%2Fspockanalytics.xyz%2Fupdates%2Fweekly-update-v-0-9-3%2F" />
+<link rel="alternate" type="text/xml+oembed" href="../../wp-json/oembed/1.0/embed2ff7?url=https%3A%2F%2Fspockanalytics.xyz%2Fupdates%2Fweekly-update-v-0-9-3%2F&amp;format=xml" />
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'../../../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WRJ5V4S');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Mix Panel -->
+<script type="text/javascript">
+(function(f,b){if(!b.__SV){var e,g,i,h;window.mixpanel=b;b._i=[];b.init=function(e,f,c){function g(a,d){var b=d.split(".");2==b.length&&(a=a[b[0]],d=b[1]);a[d]=function(){a.push([d].concat(Array.prototype.slice.call(arguments,0)))}}var a=b;"undefined"!==typeof c?a=b[c]=[]:c="mixpanel";a.people=a.people||[];a.toString=function(a){var d="mixpanel";"mixpanel"!==c&&(d+="."+c);a||(d+=" (stub)");return d};a.people.toString=function(){return a.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
+for(h=0;h<i.length;h++)g(a,i[h]);var j="set set_once union unset remove delete".split(" ");a.get_group=function(){function b(c){d[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));a.push([e,call2])}}for(var d={},e=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<j.length;c++)b(j[c]);return d};b._i.push([e,f,c])};b.__SV=1.2;e=f.createElement("script");e.type="text/javascript";e.async=!0;e.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?
+MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";g=f.getElementsByTagName("script")[0];g.parentNode.insertBefore(e,g)}})(document,window.mixpanel||[]);
+
+// Enabling the debug mode flag is useful during implementation,
+// but it's recommended you remove it for production
+mixpanel.init('4de4597817d81392bcb4a9d464b21818', {debug: true}); 
+mixpanel.track('Landing');
+</script>
+<!-- Mix Panel End --><link rel="icon" href="../../wp-content/uploads/2023/03/cropped-Favicon-32x32.png" sizes="32x32" />
+<link rel="icon" href="../../wp-content/uploads/2023/03/cropped-Favicon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="../../wp-content/uploads/2023/03/cropped-Favicon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://spockanalytics.xyz/wp-content/uploads/2023/03/cropped-Favicon-270x270.png" />
+		<style type="text/css" id="wp-custom-css">
+			body{
+	background-color: #121212;
+}
+p{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+a {
+    color: #ca13ed;
+    text-decoration: none;
+}
+.single-blog h2{
+	font-size: 42px;
+	font-weight: 500;
+
+}
+#headline-35-706{
+ font-size: 52px;	
+}
+.oxy-modal-backdrop.center.live{
+	-webkit-backdrop-filter: blur(5px);
+backdrop-filter: blur(5px);
+}
+.single-blog h3{
+	font-size: 34px;
+	font-weight: 500;
+
+}
+.tawk-branding {
+    display: none !important;
+}
+.tawk-icon-right img {
+    display: none !important;
+}
+.tawk-card .tawk-text-center {
+    display: none !important;
+}
+
+.single-blog h4{
+	font-size: 30px;
+	font-weight: 500;
+
+}
+.single-blog p{
+	margin: 1% 0 3% 0;
+}
+.single-blog a {
+    color: #ca13ed;
+}
+.tabs-0699-tab-active {
+    background-color: #ca13ed;
+    color: #000 !important;
+}
+.tabs-0813-tab-active{
+	    background-color: #ca13ed;
+    color: #000 !important;
+}
+.case-box:hover h4, .case-box:hover p {
+    color: #000000 !important;
+}
+.img-1, img-2, .img-3{
+	transition: 0.1s ease-in-out;
+}
+.sub-menu{
+	width: 100%;
+}
+ul.post-categories a {
+    text-decoration: underline;
+    color: #ca13ed !important;
+    text-decoration-color: #ca13ed;
+}
+.diff-btn:hover{
+	background-color:transparent !important;
+}
+#_nav_menu-40-17.oxy-nav-menu:not(.oxy-nav-menu-open) .sub-menu .menu-item a {
+color:#fff
+}
+#_nav_menu-40-17.oxy-nav-menu:not(.oxy-nav-menu-open) .sub-menu .menu-item a:hover {
+color:#ca13ed !important;
+}
+.ct-link-button:hover {
+    background-color: #ca13ed ;    
+	border-color:#ca13ed!important;
+}
+.diff-btn:hover {
+    background-color: #ca13ed !important;
+    color: #16171c!important;
+	    border: 2px solid !important;
+    border-color: #0000 !important;
+}
+
+.hover-btn:hover{
+	 background-color: #ca13ed !important ;
+}
+a#link_button-99-447:hover {
+    background-color: #fff !important;
+    border-color: #fff !important;
+}
+#_nav_menu-59-17 .menu-item:hover a {
+    text-decoration: none !important;
+}
+#_nav_menu-40-17 li:hover a {
+    text-decoration: none !important;
+}
+.case-img-dark{
+		display: none;
+		width: 30%;
+	}
+.oxy-toggle-switch_inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 18%;
+}
+.oxy-inner-content {
+    width: 100%;
+}
+.oxy-header-left, .oxy-header-right{
+	width: 30%;
+}
+.oxy-header-center{
+	width: 40% !important;
+}
+.img-2, .img-3{
+	opacity: 0; 
+}
+
+
+.case-box:hover .reveal-text {
+    transform: translateY(0);
+    position: initial;
+}
+
+/*Publications*/
+.sk-ww-medium-publication-feed{
+	background-color: transparent !important;
+}
+.sk_medium_publication_feed_grid-content{
+	background: #FFFFFF;
+box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.08);
+border-radius: 7px;
+	padding: 12px !important;
+	
+}
+.medium_publication_post_title {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 500;
+    color: #000000 !important;
+		margin-top: 7%;
+}
+a.sk_creator_link {
+    display: none !important;
+}
+.medium_publication_post_creator {
+    margin: 3% 0%;
+}
+.sk-read-more-btn{
+	background: #188efc !important;
+  margin-top: 4%;
+}
+.sk-description {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.medium_publication_feed_data:nth-child(5) {
+    display: none;
+}
+.medium_publication_post_title{
+	display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+/*Publications*/
+
+@media only screen and (max-width: 600px){
+	.ct-section-inner-wrap{
+		padding-right: 1.75rem !important;
+		padding-left: 1.75rem !important;
+	}
+	.menu-item a:hover {
+    border-bottom:none !important;
+}
+	.height-btn{
+		height:unset !important;
+	}
+	h1{
+		font-size:45px!important;
+	}
+	h2{
+		font-size:32px !important;
+	}
+	h3{
+			font-size:26px !important;
+	}
+	h4{
+		font-size: 32px !important;
+	}
+	h5{
+		font-size: 22px !important;
+	}
+	p{
+		font-size:16px!important;
+	}
+	.blog-head{
+		font-size:32px !important;
+	}
+	.top-line{
+		font-size: 12px !important;
+	}
+	.oxy-header-container {
+    padding-right: 1.75rem !important;
+    padding-left: 1.75rem !important;
+}
+	.oxy-toggle-switch_inner {
+    width: 75% !important;
+}
+	.menu-item a {
+    margin: 5% 0 !important;
+}
+	.include-list {
+    width: 100% !important;
+}
+	#section-348-26 .ct-section-inner-wrap{
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+	.simple-box {
+    padding-top: 10%!important;
+		 padding-bottom: 10%!important;
+}
+}
+@media only screen and (max-width: 1600px) and (min-width: 1361px){
+	#div_block-13-17{
+		width: 100% !important;
+	}
+	.oxy-header-container{
+		padding-left: 4rem !important;
+		padding-right: 4rem !important;
+	}
+	
+}
+
+@media only screen and (min-width: 1920px){
+	#div_block-8-26{
+		width: 38% !important;
+	}
+	#div_block-439-26 {
+    width: 80%;
+}
+	#div_block-595-26 {
+    width: 80%;
+}
+	#div_block-436-26 {
+    align-items: center;
+}
+	#div_block-434-26 {
+    align-items: center;
+}
+
+	.oxy-toggle-switch_inner {
+
+    width: 14% !important;
+}
+		.ct-section-inner-wrap{
+		padding-left: 10rem !important;
+		padding-right: 10rem !important;
+	}
+	#section-92-334 .ct-section-inner-wrap{
+		padding-left: 0rem !important;
+		padding-right: 0rem !important;
+	}
+	#div_block-110-334{
+		padding-left: 10rem !important;
+	}
+
+
+	
+}
+
+@media screen and (max-width:1024px){
+	.oxy-toggle-switch_inner {
+    width: 25%;
+}
+}
+@media screen and (max-width:768px){
+	.oxy-toggle-switch_inner {
+    width: 30%;
+}
+td.text-left {
+
+    width: 30% !important;
+}
+.reveal-text {
+    transform: translateY(0)!important;
+    position: initial !important;
+	color:#fff !important;
+}
+	.case-box{
+background:#121212 !Important;
+		color:#fff!important;
+	}
+	.case-box:hover h4, .case-box:hover p {
+    color: #fff !important;
+}
+	.case-img{
+		display:block !important;
+	}
+	.case-head{
+		color:#fff !important;
+	}
+
+
+	#section-21-334 {
+    margin-top: 0%;
+}
+	.case-img-dark{
+		display: none !Important;
+		width: 30%;
+	}
+
+	
+}
+
+@media screen and (min-width:1400px) and (max-width:1600px){
+	h1{
+		width: 90% !important;
+		font-size: 70px !important;
+	}
+
+	.oxy-header-container {
+    padding-right: 4rem !important;
+    padding-left: 4rem !important;
+}
+	
+	#headline-141-334 {
+    color: #000000;
+    letter-spacing: 1px;
+    font-weight: 500 !important;
+    text-align: center;
+    width: 65% !important;
+}
+}
+@media only screen and (max-width: 1700px) and (min-width: 1500px){
+	#headline-141-334{
+		width: 65% !important;
+	}
+}
+
+
+@media screen and (max-width: 1600px) and (min-width: 1440px){
+	#headline-145-447 {
+    width: 55.65% !Important;
+}
+}
+@media screen and (max-width: 1919px) and (min-width: 1759px){
+#headline-145-447 {
+    width: 59% !important;
+}
+}
+
+@media screen and (max-width: 1231px) and (min-width: 1025px){
+.price-box {
+    width: 100% !important;
+}
+}
+@media screen and (max-width:600px){
+
+.ticker-wrap .ticker {
+    white-space: inherit !Important;
+    text-align: center !important;
+
+}
+}
+.menu-item a:hover{
+	text-decoration: underline !important;
+	text-decoration-color: #ca13ed !important;
+}
+
+.cta-button:hover {
+    background-color: #000 !important;
+    color: #fff !important;
+    border: none !important;
+}
+.cta-button:hover div{
+	color: #fff !important;
+}
+
+@media screen and (min-width:1521px) and (max-width:2179px){
+	#link_button-142-334 {
+    width: 230px !important;
+}
+}
+@media screen and (min-width:2180px){
+#div_block-258-334 .cta-button {
+    width: 15%;
+}
+@media screen and (min-width:1025px) and (max-width:1150px){
+#_tabs-44-28497 {
+    width: 87% !important;
+	}
+}
+.post-categories li a {
+    pointer-events: none;
+}		</style>
+		<link href="https://fonts.googleapis.com/css?family=Outfit:100,200,300,400,500,600,700,800,900|Saira:100,200,300,400,500,600,700,800,900|Saira:100,200,300,400,500,600,700,800,900|Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet"><link rel='stylesheet' id='oxygen-cache-17-css' href='../../wp-content/uploads/oxygen/css/17c702.css?cache=1683114786&amp;ver=6.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='oxygen-cache-706-css' href='../../wp-content/uploads/oxygen/css/70605f9.css?cache=1683987105&amp;ver=6.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='oxygen-universal-styles-css' href='../../wp-content/uploads/oxygen/css/universaldd5d.css?cache=1686759073&amp;ver=6.2.2' type='text/css' media='all' />
+<!-- END OF WP_HEAD() -->
+</head>
+<body class="updates-template-default single single-updates postid-751  wp-embed-responsive oxygen-body" >
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WRJ5V4S"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>
+
+
+						<header id="_header-2-17" class="oxy-header-wrapper oxy-overlay-header oxy-header" ><div id="_header_row-3-17" class="oxy-header-row" ><div class="oxy-header-container"><div id="_header_left-4-17" class="oxy-header-left" ><div id="div_block-8-17" class="ct-div-block" ><a id="link-46-17" class="ct-link" href="../../index.html" target="_self"  ><img loading="eager" id="image-9-17" alt="" src="../../wp-content/uploads/2023/02/Logo.svg" class="ct-image" srcset="" sizes="(max-width: 119px) 100vw, 119px" /></a></div><div id="code_block-69-17" class="ct-code-block" ></div></div><div id="_header_center-5-17" class="oxy-header-center" ><div id="div_block-13-17" class="ct-div-block" ><nav id="_nav_menu-40-17" class="oxy-nav-menu oxy-nav-menu-dropdowns oxy-nav-menu-dropdown-arrow" ><div class='oxy-menu-toggle'><div class='oxy-nav-menu-hamburger-wrap'><div class='oxy-nav-menu-hamburger'><div class='oxy-nav-menu-hamburger-line'></div><div class='oxy-nav-menu-hamburger-line'></div><div class='oxy-nav-menu-hamburger-line'></div></div></div></div><div class="menu-main-menu-container"><ul id="menu-main-menu" class="oxy-nav-menu-list"><li id="menu-item-486" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-486"><a href="../../pricing/index.html">Pricing</a></li>
+<li id="menu-item-274" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-274"><a href="#dapp">Resources</a>
+<ul class="sub-menu">
+	<li id="menu-item-834" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-834"><a target="_blank" rel="noopener" href="https://spock-analytics.gitbook.io/spock-analytics-docs/get-started/spock-analytics">Docs</a></li>
+	<li id="menu-item-776" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-776"><a href="../../blogs/index.html">Blogs</a></li>
+	<li id="menu-item-488" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-488"><a target="_blank" rel="noopener" href="../../wp-content/uploads/2023/03/Lite-Paper-New-Spock.pdf">Litepaper</a></li>
+</ul>
+</li>
+<li id="menu-item-886" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-886"><a target="_blank" rel="noopener" href="https://search.spockanalytics.xyz/">Search</a></li>
+<li id="menu-item-379" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-379"><a target="_blank" rel="noopener" href="https://calendly.com/abdsami/30min">Contact Us</a></li>
+</ul></div></nav><div id="code_block-15-17" class="ct-code-block" ><a href="https://www.producthunt.com/posts/spock-2?utm_source=badge-featured&amp;utm_medium=badge&amp;utm_souce=badge-spock-2" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=361760&amp;theme=light" alt="Spock - Web3's first wallet analytics platform | Product Hunt" style="width: 250px; height: 54px;"></a></div></div></div><div id="_header_right-6-17" class="oxy-header-right" ><a id="link_button-50-17" class="ct-link-button height-btn hover-btn" href="https://app.spockanalytics.xyz/" target="_self"  >Sign In</a>
+		<div id="-burger-trigger-22-17" class="oxy-burger-trigger "><button aria-label="Open menu" data-touch="click"  class="hamburger hamburger--slider " type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></button></div>
+
+		
+		<div id="-off-canvas-24-17" class="oxy-off-canvas "><div class="oxy-offcanvas_backdrop"></div><div id="-off-canvas-24-17-inner" class="offcanvas-inner oxy-inner-content" role="dialog" aria-label="offcanvas content" tabindex="0" data-start="false" data-click-outside="true" data-trigger-selector=".oxy-burger-trigger" data-esc="true" data-focus-selector=".offcanvas-inner" data-reset="400" data-hashclose="true" data-burger-sync="false" data-overflow="true" data-auto-aria="true" ><nav id="_nav_menu-25-17" class="oxy-nav-menu oxy-nav-menu-dropdowns oxy-nav-menu-dropdown-arrow oxy-nav-menu-vertical" ><div class='oxy-menu-toggle'><div class='oxy-nav-menu-hamburger-wrap'><div class='oxy-nav-menu-hamburger'><div class='oxy-nav-menu-hamburger-line'></div><div class='oxy-nav-menu-hamburger-line'></div><div class='oxy-nav-menu-hamburger-line'></div></div></div></div><div class="menu-footer-mobile-container"><ul id="menu-footer-mobile" class="oxy-nav-menu-list"><li id="menu-item-513" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-513"><a href="../../pricing/index.html">Pricing</a></li>
+<li id="menu-item-516" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-516"><a href="../../wp-content/uploads/2023/03/Lite-Paper-New-Spock.pdf">Litepaper</a></li>
+<li id="menu-item-780" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-780"><a href="../../blogs/index.html">Blogs</a></li>
+<li id="menu-item-518" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-518"><a target="_blank" rel="noopener" href="https://calendly.com/abdsami/30min">Contact</a></li>
+</ul></div></nav><a id="link_button-53-17" class="ct-link-button" href="http://" target="_self"  >Sign In</a><div id="div_block-27-17" class="ct-div-block" ><div id="code_block-28-17" class="ct-code-block" ><a href="https://www.producthunt.com/posts/spock-2?utm_source=badge-featured&amp;utm_medium=badge&amp;utm_souce=badge-spock-2" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=361760&amp;theme=light" alt="Spock - Web3's first wallet analytics platform | Product Hunt"></a></div><a id="link_button-29-17" class="ct-link-button" href="https://app.spockanalytics.xyz/register" target="_blank"  >Register</a><a id="link_button-34-17" class="ct-link-button" href="https://app.spockanalytics.xyz/" target="_blank"  >Login</a></div></div></div>
+
+		<nav id="_nav_menu-10-17" class="oxy-nav-menu oxy-nav-menu-dropdowns oxy-nav-menu-dropdown-arrow" ><div class='oxy-menu-toggle'><div class='oxy-nav-menu-hamburger-wrap'><div class='oxy-nav-menu-hamburger'><div class='oxy-nav-menu-hamburger-line'></div><div class='oxy-nav-menu-hamburger-line'></div><div class='oxy-nav-menu-hamburger-line'></div></div></div></div><div class="menu-footer-bottom-container"><ul id="menu-footer-bottom" class="oxy-nav-menu-list"><li id="menu-item-520" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-520"><a href="../../terms-conditions/index.html">Terms &#038; Conditions</a></li>
+<li id="menu-item-519" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-519"><a href="../../privacy-policy/index.html">Privacy Policy</a></li>
+</ul></div></nav></div></div></div></header>
+		<section id="section-2-27980" class=" ct-section" ><div class="ct-section-inner-wrap"><div id="div_block-3-27980" class="ct-div-block" ><div id="new_columns-4-27980" class="ct-new-columns" ><div id="div_block-5-27980" class="ct-div-block" ><h4 id="headline-11-27980" class="ct-headline"><span id="span-13-27980" class="ct-span" >April 9, 2023</span></h4><h1 id="headline-7-27980" class="ct-headline blog-head"><span id="span-9-27980" class="ct-span" >Weekly Update V 0.9.3</span></h1><h4 id="headline-15-27980" class="ct-headline">Author:&nbsp;<span id="span-16-706" class="ct-span" >Arham</span></h4></div><div id="div_block-6-27980" class="ct-div-block" ><img loading="eager" id="image-18-27980" alt="" src="../../wp-content/uploads/2023/04/V0.9.3.png" class="ct-image" srcset="https://spockanalytics.xyz/wp-content/uploads/2023/04/V0.9.3.png 1500w, https://spockanalytics.xyz/wp-content/uploads/2023/04/V0.9.3-300x150.png 300w, https://spockanalytics.xyz/wp-content/uploads/2023/04/V0.9.3-1024x512.png 1024w, https://spockanalytics.xyz/wp-content/uploads/2023/04/V0.9.3-768x384.png 768w" sizes="(max-width: 1500px) 100vw, 1500px" /></div></div></div></div></section><section id="section-21-27980" class=" ct-section" ><div class="ct-section-inner-wrap"><div id="div_block-22-27980" class="ct-div-block" ><p id="text_block-23-27980" class="ct-text-block" ><span id="span-25-27980" class="ct-span oxy-stock-content-styles" >
+<p id="7344">This week in our weekly update we have fixed some old issues and brought in some new features. What are they? let’s find out.</p>
+
+
+
+<p id="40e4"><strong>What’s New:</strong></p>
+
+
+
+<ul>
+<li><strong>Data extractions from Smart contracts:</strong></li>
+</ul>
+
+
+
+<p id="e4e0">To access essential metrics data immediately, users can provide their smart contract details to the app. Within minutes of data synchronization, Spock will present limited dApp data, which will be useful for the dApp founder to analyze initial data sets. However, for complete, comprehensive data availability and visualization, users will need to integrate SDK and code adapters.</p>
+
+
+
+<ul>
+<li><strong>Custom Pricing &amp; Billing Mechanism:</strong></li>
+</ul>
+
+
+
+<p id="76d2">We’ve made some changes to make it easier for you to pay as you need. Our freemium version lets you track up to 500 wallets for free, and if you need more, our Voyager version offers custom plans starting at $25. Plus, you can pay in stable cryptocurrencies like USDT, DAI, and USDC.</p>
+
+
+
+<ul>
+<li><strong>Tracking of Monthly tracked wallets on your dashboard:</strong></li>
+</ul>
+
+
+
+<p id="443c">Users can now track a monthly quota of MTW (Monthly Tracked Wallets) and view detailed information about their resource utilization. This feature provides users greater control over their analytics needs, allowing them to upgrade or downgrade their plan based on their tracking data. We hope this new feature will help you better manage your resources and get the insights you need to drive your dApp’s growth.</p>
+
+
+
+<p id="17cc"><strong>Bug Fixes:</strong></p>
+
+
+
+<ul>
+<li>Improvement in onboarding mechanism.</li>
+
+
+
+<li>UX &amp; Content changes in app.</li>
+
+
+
+<li>Database management and improvements..</li>
+</ul>
+
+
+
+<p id="d6d6"><strong>What’s Next:</strong></p>
+
+
+
+<ul>
+<li>The engineering team is working on V1 of Spock Analytics which consists of complete customizability of the complete dashboard and metrics.</li>
+</ul>
+
+
+
+<p id="dc31">Spock needs your feedback to improve more. Visit&nbsp;<a href="../../index.html" rel="noreferrer noopener" target="_blank">spockanalytics.xyz</a>&nbsp;and use our free interactable demo and provide us with your feedback at hello@spockanalytics.xyz.</p>
+</span></p></div></div></section>            <div tabindex="-1" class="oxy-modal-backdrop center "
+                style="background-color: rgba(0,0,0,0.51);"
+                data-trigger="after_scrolled_amount"                data-trigger-selector=""                data-trigger-time="60"                data-trigger-time-unit="seconds"                data-close-automatically="no"                data-close-after-time="10"                data-close-after-time-unit="seconds"                data-trigger_scroll_amount="30"                data-trigger_scroll_direction="down"	            data-scroll_to_selector=""	            data-time_inactive="60"	            data-time-inactive-unit="seconds"	            data-number_of_clicks="3"	            data-close_on_esc="on"	            data-number_of_page_views="3"                data-close-after-form-submit="no"                data-open-again="always_show"                data-open-again-after-days="3"            >
+
+                <div id="modal-31-706" class="ct-modal" ><div id="div_block-34-706" class="ct-div-block" ><a id="link_button-38-706" class="ct-link-button oxy-close-modal" href="http://" target="_self"  >x</a><h3 id="headline-35-706" class="ct-headline">Interested to learn more about Web3 product growth strategies?</h3><p id="text_block-36-706" class="ct-text-block" >Signup for The Vulcan Voice newsletter now and stay ahead of the curve!</p><div id="code_block-37-706" class="ct-code-block" ><iframe src="https://embeds.beehiiv.com/1083980f-8741-4e08-9c2f-a310b507fe6e?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" width="100%" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe>
+<script type="text/javascript" async src="../../../embeds.beehiiv.com/attribution.js"></script></div></div></div>
+            </div>
+        <section id="section-18-17" class=" ct-section" ><div class="ct-section-inner-wrap"><div id="div_block-30-17" class="ct-div-block" ><a id="link-32-17" class="ct-link" href="../../index.html" target="_self"  ><img loading="eager" id="image-19-17" alt="" src="../../wp-content/uploads/2022/10/Company-Info.png" class="ct-image" srcset="" sizes="(max-width: 160px) 100vw, 160px" /></a><img loading="eager" id="image-31-17" alt="" src="../../wp-content/uploads/2022/10/Divider.png" class="ct-image" srcset="https://spockanalytics.xyz/wp-content/uploads/2022/10/Divider.png 1110w, https://spockanalytics.xyz/wp-content/uploads/2022/10/Divider-300x1.png 300w, https://spockanalytics.xyz/wp-content/uploads/2022/10/Divider-1024x2.png 1024w, https://spockanalytics.xyz/wp-content/uploads/2022/10/Divider-150x2.png 150w, https://spockanalytics.xyz/wp-content/uploads/2022/10/Divider-768x1.png 768w" sizes="(max-width: 1110px) 100vw, 1110px" /></div><div id="code_block-20-17" class="ct-code-block" ><div class="social-icons">
+	<a href="https://spockanalytics.medium.com/" target="_blank"><img src="../../wp-content/uploads/2022/12/medium.png"></a>
+	<a href="https://twitter.com/spockanalytics" target="_blank"><img src="../../wp-content/uploads/2022/12/Twitter-Negative.png"></a>
+	<a href="https://discord.gg/QH8guZpwtG" target="_blank"><img src="../../wp-content/uploads/2022/12/discord.png"></a>
+	
+</div></div><div id="div_block-42-17" class="ct-div-block" ><div class="link-combine">
+<a href="../../privacy-policy/index.html">Privacy Policy</a> | <a href="../../terms-conditions/index.html">Terms & Conditions</a>
+</div></div></div></section><section id="section-47-17" class=" ct-section" ><div class="ct-section-inner-wrap"><div id="new_columns-55-17" class="ct-new-columns" ><div id="div_block-56-17" class="ct-div-block" ><img loading="eager" id="image-58-17" alt="" src="../../wp-content/uploads/2023/02/Logo.svg" class="ct-image" srcset="" sizes="(max-width: 119px) 100vw, 119px" /></div><div id="div_block-57-17" class="ct-div-block" ><nav id="_nav_menu-59-17" class="oxy-nav-menu" ><div class='oxy-menu-toggle'><div class='oxy-nav-menu-hamburger-wrap'><div class='oxy-nav-menu-hamburger'><div class='oxy-nav-menu-hamburger-line'></div><div class='oxy-nav-menu-hamburger-line'></div><div class='oxy-nav-menu-hamburger-line'></div></div></div></div><div class="menu-mobile-menu-container"><ul id="menu-mobile-menu" class="oxy-nav-menu-list"><li id="menu-item-495" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-495"><a href="../../pricing/index.html">Pricing</a></li>
+<li id="menu-item-779" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-779"><a href="../../blogs/index.html">Blogs</a></li>
+<li id="menu-item-499" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-499"><a href="../../wp-content/uploads/2023/03/Lite-Paper-New-Spock.pdf">Litepaper</a></li>
+<li id="menu-item-496" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-496"><a href="../../privacy-policy/index.html">Privacy Policy</a></li>
+<li id="menu-item-497" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-497"><a href="../../terms-conditions/index.html">Terms &#038; Conditions</a></li>
+<li id="menu-item-512" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-512"><a href="https://calendly.com/abdsami/30min">Contact</a></li>
+</ul></div></nav><nav id="_nav_menu-67-17" class="oxy-nav-menu" ><div class='oxy-menu-toggle'><div class='oxy-nav-menu-hamburger-wrap'><div class='oxy-nav-menu-hamburger'><div class='oxy-nav-menu-hamburger-line'></div><div class='oxy-nav-menu-hamburger-line'></div><div class='oxy-nav-menu-hamburger-line'></div></div></div></div><div class="menu-footer-mobile-container"><ul id="menu-footer-mobile-1" class="oxy-nav-menu-list"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-513"><a href="../../pricing/index.html">Pricing</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-516"><a href="../../wp-content/uploads/2023/03/Lite-Paper-New-Spock.pdf">Litepaper</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-780"><a href="../../blogs/index.html">Blogs</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-518"><a target="_blank" rel="noopener" href="https://calendly.com/abdsami/30min">Contact</a></li>
+</ul></div></nav></div></div><div id="new_columns-61-17" class="ct-new-columns" ><div id="div_block-62-17" class="ct-div-block" ><div id="code_block-41-17" class="ct-code-block" ><div class="footer-credit">
+	<p>Design partner</p> <a href="https://expeditedesign.com/" target="_blank"><img width="100px" src="../../wp-content/uploads/2023/05/reverse-e-SVG.webp"></a>
+</div></div></div><div id="div_block-71-17" class="ct-div-block" ><div id="code_block-72-17" class="ct-code-block" ><div class="footer-copyright">
+	© 2023 Spock Analytics. All rights reserved.
+</div></div><nav id="_nav_menu-73-17" class="oxy-nav-menu" ><div class='oxy-menu-toggle'><div class='oxy-nav-menu-hamburger-wrap'><div class='oxy-nav-menu-hamburger'><div class='oxy-nav-menu-hamburger-line'></div><div class='oxy-nav-menu-hamburger-line'></div><div class='oxy-nav-menu-hamburger-line'></div></div></div></div><div class="menu-footer-bottom-container"><ul id="menu-footer-bottom-1" class="oxy-nav-menu-list"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-520"><a href="../../terms-conditions/index.html">Terms &#038; Conditions</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-519"><a href="../../privacy-policy/index.html">Privacy Policy</a></li>
+</ul></div></nav></div><div id="div_block-63-17" class="ct-div-block" ><div id="code_block-66-17" class="ct-code-block" ><div class="social-icons">
+	<a href="https://spockanalytics.medium.com/" target="_blank"><img src="../../wp-content/uploads/2022/12/medium.png" alt="medium"></a>
+	<a href="https://twitter.com/spockanalytics" target="_blank"><img src="../../wp-content/uploads/2022/12/Twitter-Negative.png" alt="twitter"></a>
+	<a href="https://discord.gg/QH8guZpwtG" target="_blank"><img src="../../wp-content/uploads/2022/12/discord.png" alt="disord"></a>
+	
+</div></div></div></div></div></section><div id="code_block-70-17" class="ct-code-block" ><link rel="stylesheet" href="../../../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="ticker-wrap">
+<div class="ticker">
+  <div class="ticker__item"><a href="https://www.ethdubaiconf.org/#xord-workshop" target="__blank">Workshop on Web3 Analytics is being conducted at ETHDubai on 16th March 2023 at 3pm <i class="fa fa-external-link"></i> </a> </div>
+
+
+  <!--<div class="ticker__item">Authentic bitters seitan pug single-origin coffee whatever.</div>
+  <div class="ticker__item">Letterpress chambray brunch.</div>
+  <div class="ticker__item">Vice mlkshk crucifix beard chillwave meditation hoodie asymmetrical Helvetica.</div>
+  <div class="ticker__item">Ugh PBR&B kale chips Echo Park.</div>
+  <div class="ticker__item">Gluten-free mumblecore chambray mixtape food truck. </div>
+  <div class="ticker__item">Authentic bitters seitan pug single-origin coffee whatever.</div>-->
+</div>
+</div>
+
+
+</div>	<!-- WP_FOOTER -->
+<script type="text/javascript" id="ct_custom_js_100002"><!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-238086453-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-238086453-3');
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-85RLZSMDMG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-85RLZSMDMG');
+</script>
+
+
+
+</script>
+
+		<script type="text/javascript">
+			jQuery(document).ready(function() {
+				jQuery('body').on('click', '.oxy-menu-toggle', function() {
+					jQuery(this).parent('.oxy-nav-menu').toggleClass('oxy-nav-menu-open');
+					jQuery('body').toggleClass('oxy-nav-menu-prevent-overflow');
+					jQuery('html').toggleClass('oxy-nav-menu-prevent-overflow');
+				});
+				var selector = '.oxy-nav-menu-open .menu-item a[href*="#"]';
+				jQuery('body').on('click', selector, function(){
+					jQuery('.oxy-nav-menu-open').removeClass('oxy-nav-menu-open');
+					jQuery('body').removeClass('oxy-nav-menu-prevent-overflow');
+					jQuery('html').removeClass('oxy-nav-menu-prevent-overflow');
+					jQuery(this).click();
+				});
+			});
+		</script>
+
+	            
+            <script type="text/javascript">
+            jQuery(document).ready(oxygen_init_burger);
+            function oxygen_init_burger($) {
+                
+                $('.oxy-burger-trigger').each(function( i, OxyBurgerTrigger ) {
+                    
+                    let touchEventOption =  $( OxyBurgerTrigger ).children('.hamburger').data('touch');
+                    let touchEvent = 'ontouchstart' in window ? touchEventOption : 'click';     
+                    
+                    // Close hamburger when element clicked 
+                    $( OxyBurgerTrigger ).on( touchEvent, function(e) {    
+                        
+                        e.stopPropagation();
+
+                        // Check user wants animations
+                        if ($(this).children( '.hamburger' ).data('animation') !== 'disable') {
+                            $(this).children( '.hamburger' ).toggleClass('is-active');
+                        }
+                        
+                    } );
+                    
+                } );
+                
+                
+                
+                // For listening for modals closing to close the hamburger
+                var className = 'live';
+                var target = document.querySelectorAll(".oxy-modal-backdrop[data-trigger='user_clicks_element']");
+                for (var i = 0; i < target.length; i++) {
+
+                    // create an observer instance
+                    var observer = new MutationObserver(function(mutations) {
+                        mutations.forEach(function(mutation) {
+                            
+                            // When the style changes on modal backdrop
+                            if (mutation.attributeName === 'style') {
+
+                                // If the modal is live and is closing  
+                                if(!mutation.target.classList.contains(className)){
+
+                                    // Close the toggle
+                                    closeToggle(mutation.target);
+
+                                }
+                            }  
+                        });
+                    });
+
+                    // configuration of the observer
+                    var config = { 
+                        attributes: true,
+                        attributeFilter: ['style'],
+                        subtree: false
+                    };
+
+                    // pass in the target node, as well as the observer options
+                    observer.observe(target[i], config);
+                }
+                
+                
+               // Helper function to close hamburger if modal closed.
+                function closeToggle(elem) {
+                    
+                    var triggerSelector = $($(elem).data('trigger-selector'));
+                    
+                    // Abort if burger not being used as the trigger or animations not turned on
+                    if ((!triggerSelector.hasClass('oxy-burger-trigger')) || (triggerSelector.children( '.hamburger' ).data('animation') === 'disable') ) {
+                        return;
+                    }
+                    // Close that particular burger
+                    triggerSelector.children('.hamburger').removeClass('is-active');
+                    
+                }
+                
+                
+            } </script>
+
+    
+		<script type="text/javascript">
+
+            // Initialize Oxygen Modals
+            jQuery(document).ready(function() {
+
+                function showModal( modal ) {
+                    var $modal = jQuery( modal );
+                    $modal.addClass("live");
+                    var modalId = $modal[0].querySelector('.ct-modal').id;
+                    
+                    var focusable = modal.querySelector('a[href]:not([disabled]), button:not([disabled]), textarea:not([disabled]), input[type="text"]:not([disabled]), input[type="radio"]:not([disabled]), input[type="checkbox"]:not([disabled]), select:not([disabled])');
+
+                    if(focusable) {
+                        setTimeout(() => {
+                            focusable.focus();    
+                        }, 500);
+                    } else {
+                        setTimeout(() => {
+                        $modal.focus();
+                        }, 500)
+                    }
+
+                    // Check if this modal can be shown according to settings and last shown time
+                    // Current and last time in milliseconds
+                    var currentTime = new Date().getTime();
+                    var lastShownTime = localStorage && localStorage['oxy-' + modalId + '-last-shown-time'] ? JSON.parse( localStorage['oxy-' + modalId + '-last-shown-time'] ) : false;
+                    // manual triggers aren't affected by last shown time
+                    if( $modal.data( 'trigger' ) != 'user_clicks_element' ) {
+                        switch( $modal.data( 'open-again' ) ) {
+                            case 'never_show_again':
+                                // if it was shown at least once, don't show it again
+                                if( lastShownTime !== false ) return;
+                                break;
+                            case 'show_again_after':
+                                var settingDays = parseInt( $modal.data( 'open-again-after-days' ) );
+                                var actualDays = ( currentTime - lastShownTime ) / ( 60*60*24*1000 );
+                                if( actualDays < settingDays ) return;
+                                break;
+                            default:
+                                //always show
+                                break;
+                        }
+                    }
+
+                    // Body manipulation to prevent scrolling while modal is active, and maintain scroll position.
+                    document.querySelector('body').style.top = `-${window.scrollY}px`;
+                    document.querySelector('body').classList.add('oxy-modal-active');
+                    
+                    // save current time as last shown time
+                    if( localStorage ) localStorage['oxy-' + modalId + '-last-shown-time'] = JSON.stringify( currentTime );
+
+                    // trick to make jQuery fadeIn with flex
+                    $modal.css("display", "flex");
+                    $modal.hide();
+                    // trick to force AOS trigger on elements inside the modal
+                    $modal.find(".aos-animate").removeClass("aos-animate").addClass("aos-animate-disabled");
+
+                    // show the modal
+                    $modal.fadeIn(250, function(){
+                        // trick to force AOS trigger on elements inside the modal
+                        $modal.find(".aos-animate-disabled").removeClass("aos-animate-disabled").addClass("aos-animate");
+                    });
+
+
+                    if( $modal.data( 'close-automatically' ) == 'yes' ) {
+                        var time = parseInt( $modal.data( 'close-after-time' ) );
+                        if( $modal.data( 'close-after-time-unit' ) == 'seconds' ) {
+                            time = parseInt( parseFloat( $modal.data( 'close-after-time' ) ) * 1000 );
+                        }
+                        setTimeout( function(){
+                            hideModal(modal);
+                        }, time );
+                    }
+
+                    // close modal automatically after form submit (Non-AJAX)
+                    if( $modal.data( 'close-after-form-submit' ) == 'yes' && $modal.data("trigger") == "after_specified_time" ) {
+
+                        // WPForms
+                        // WPForms replaces the form with a confirmation message on page refresh
+                        if( $modal.find(".wpforms-confirmation-container-full").length > 0 ) {
+                            setTimeout(function () {
+                                hideModal(modal);
+                            }, 3000);
+                        }
+
+                        // Formidable Forms
+                        // Formidable Forms replaces the form with a confirmation message on page refresh
+                        if( $modal.find(".frm_message").length > 0 ) {
+                            setTimeout(function () {
+                                hideModal(modal);
+                            }, 3000);
+                        }
+
+                        // Caldera Forms
+                        // Caldera Forms replaces the form with a confirmation message on page refresh
+                        if( $modal.find(".caldera-grid .alert-success").length > 0 ) {
+                            setTimeout(function () {
+                                hideModal(modal);
+                            }, 3000);
+                        }
+
+                    }
+                }
+
+                window.oxyShowModal = showModal;
+
+                var hideModal = function ( modal ) {
+
+                    // Body manipulation for scroll prevention and maintaining scroll position
+                    var scrollY = document.querySelector('body').style.top;
+                    document.querySelector('body').classList.remove('oxy-modal-active');
+                    document.querySelector('body').style.top = '';
+                    window.scrollTo(0, parseInt(scrollY || '0') * -1);
+
+                    // The function may be called by third party code, without argument, so we must close the first visible modal
+                    if( typeof modal === 'undefined' ) {
+                        var openModals = jQuery(".oxy-modal-backdrop.live");
+                        if( openModals.length == 0 ) return;
+                        modal = openModals[0];
+                    }
+
+                    var $modal = jQuery( modal );
+                    // refresh any iframe so media embedded this way is stopped
+                    $modal.find( 'iframe').each(function(index){
+                        this.src = this.src;
+                    });
+                    // HTML5 videos can be stopped easily
+                    $modal.find( 'video' ).each(function(index){
+                        this.pause();
+                    });
+                    // If there are any forms in the modal, reset them
+                    $modal.find("form").each(function(index){
+                        this.reset();
+                    });
+
+                    $modal.find(".aos-animate").removeClass("aos-animate").addClass("aos-animate-disabled");
+
+                    $modal.fadeOut(400, function(){
+                        $modal.removeClass("live");
+                        $modal.find(".aos-animate-disabled").removeClass("aos-animate-disabled").addClass("aos-animate");
+                    });
+                };
+
+                window.oxyCloseModal = hideModal;
+
+                jQuery( ".oxy-modal-backdrop" ).each(function( index ) {
+
+                    var modal = this;
+
+                    (function( modal ){
+                        var $modal = jQuery( modal );
+						
+						var exitIntentFunction = function( e ){
+							if( e.clientY <= 0 ) {
+								showModal( modal );
+								document.removeEventListener( "mouseleave", exitIntentFunction );
+								document.removeEventListener( "mouseout", exitIntentFunction );
+							}
+						}
+
+                        switch ( jQuery( modal ).data("trigger") ) {
+
+                            case "on_exit_intent":
+                                document.addEventListener( "mouseleave", exitIntentFunction, false);
+								document.addEventListener( "mouseout", exitIntentFunction, false);
+                                break;
+
+                            case "user_clicks_element":
+                                jQuery( jQuery( modal ).data( 'trigger-selector' ) ).click( function( event ) {
+                                    showModal( modal );
+                                    event.preventDefault();
+                                } );
+                                break;
+
+                            case "after_specified_time":
+                                var time = parseInt( jQuery( modal ).data( 'trigger-time' ) );
+                                if( jQuery( modal ).data( 'trigger-time-unit' ) == 'seconds' ) {
+                                    time = parseInt( parseFloat( jQuery( modal ).data( 'trigger-time' ) ) * 1000 );
+                                }
+                                setTimeout( function(){
+                                    showModal( modal );
+                                }, time );
+                                break;
+
+                            case "after_scrolled_amount":
+                                window.addEventListener("scroll", function scrollDetection(){
+                                    var winheight= window.innerHeight || (document.documentElement || document.body).clientHeight;
+                                    var docheight = jQuery(document).height();
+                                    var scrollTop = window.pageYOffset || (document.documentElement || document.body.parentNode || document.body).scrollTop;
+                                    var isScrollUp = false;
+                                    var oxyPreviousScrollTop = parseInt( jQuery( modal ).data( 'previous_scroll_top' ) );
+                                    if( !isNaN( oxyPreviousScrollTop ) ) {
+                                        if( oxyPreviousScrollTop > scrollTop) isScrollUp = true;
+                                    }
+                                    jQuery( modal ).data( 'previous_scroll_top', scrollTop );
+                                    var trackLength = docheight - winheight;
+                                    var pctScrolled = Math.floor(scrollTop/trackLength * 100);
+                                    if( isNaN( pctScrolled ) ) pctScrolled = 0;
+
+                                    if(
+                                        ( isScrollUp && jQuery( modal ).data( 'trigger_scroll_direction' ) == 'up' ) ||
+                                        ( !isScrollUp && jQuery( modal ).data( 'trigger_scroll_direction' ) == 'down' && pctScrolled >= parseInt( jQuery( modal ).data( 'trigger_scroll_amount' ) ) )
+                                    ) {
+                                        showModal( modal );
+                                        window.removeEventListener( "scroll", scrollDetection );
+                                    }
+                                }, false);
+                                break;
+                            case "on_scroll_to_element":
+                                window.addEventListener("scroll", function scrollDetection(){
+                                    var $element = jQuery( jQuery( modal ).data( 'scroll_to_selector' ) );
+                                    if( $element.length == 0 ) {
+                                        window.removeEventListener( "scroll", scrollDetection );
+                                        return;
+                                    }
+
+                                    var top_of_element = $element.offset().top;
+                                    var bottom_of_element = $element.offset().top + $element.outerHeight();
+                                    var bottom_of_screen = jQuery(window).scrollTop() + jQuery(window).innerHeight();
+                                    var top_of_screen = jQuery(window).scrollTop();
+
+                                    if ((bottom_of_screen > bottom_of_element - $element.outerHeight() /2 ) && (top_of_screen < top_of_element + $element.outerHeight() /2 )){
+                                        showModal( modal );
+                                        window.removeEventListener( "scroll", scrollDetection );
+                                    }
+                                }, false);
+                                break;
+                            case "after_number_of_clicks":
+                                document.addEventListener("click", function clickDetection(){
+                                    var number_of_clicks = parseInt( jQuery( modal ).data( 'number_of_clicks' ) );
+
+                                    var clicks_performed = isNaN( parseInt( jQuery( modal ).data( 'clicks_performed' ) ) ) ? 1 :  parseInt( jQuery( modal ).data( 'clicks_performed' ) ) + 1;
+
+                                    jQuery( modal ).data( 'clicks_performed', clicks_performed );
+
+                                    if ( clicks_performed == number_of_clicks ){
+                                        showModal( modal );
+                                        document.removeEventListener( "click", clickDetection );
+                                    }
+                                }, false);
+                                break;
+                            case "after_time_inactive":
+                                var time = parseInt( jQuery( modal ).data( 'time_inactive' ) );
+                                if( jQuery( modal ).data( 'time-inactive-unit' ) == 'seconds' ) {
+                                    time = parseInt( parseFloat( jQuery( modal ).data( 'time_inactive' ) ) * 1000 );
+                                }
+                                var activityDetected = function(){
+                                    jQuery( modal ).data( 'millis_idle', 0 );
+                                };
+                                document.addEventListener( "click", activityDetected);
+                                document.addEventListener( "mousemove", activityDetected);
+                                document.addEventListener( "keypress", activityDetected);
+                                document.addEventListener( "scroll", activityDetected);
+
+                                var idleInterval = setInterval(function(){
+                                    var millis_idle = isNaN( parseInt( jQuery( modal ).data( 'millis_idle' ) ) ) ? 100 :  parseInt( jQuery( modal ).data( 'millis_idle' ) ) + 100;
+                                    jQuery( modal ).data( 'millis_idle', millis_idle );
+                                    if( millis_idle > time ){
+                                        clearInterval( idleInterval );
+                                        document.removeEventListener( "click", activityDetected );
+                                        document.removeEventListener( "mousemove", activityDetected );
+                                        document.removeEventListener( "keypress", activityDetected );
+                                        document.removeEventListener( "scroll", activityDetected );
+                                        showModal( modal );
+                                    }
+                                }, 100);
+                                break;
+
+                            case "after_number_of_page_views":
+                                var modalId = modal.querySelector('.ct-modal').id;
+                                var pageViews = localStorage && localStorage['oxy-' + modalId + '-page-views'] ? parseInt( localStorage['oxy-' + modalId + '-page-views'] ) : 0;
+                                pageViews++;
+                                if( localStorage ) localStorage['oxy-' + modalId + '-page-views'] = pageViews;
+                                if( parseInt( jQuery( modal ).data( 'number_of_page_views' ) ) == pageViews ) {
+                                    if( localStorage ) localStorage['oxy-' + modalId + '-page-views'] = 0;
+                                    showModal( modal );
+                                }
+                                break;
+
+                        }
+
+                        // add event handler to close modal automatically after AJAX form submit
+                        if( $modal.data( 'close-after-form-submit' ) == 'yes' ) {
+
+                            // Contact Form 7
+                            if (typeof wpcf7 !== 'undefined') {
+                                $modal.find('div.wpcf7').each(function () {
+                                    var $form = jQuery(this).find('form');
+                                    this.addEventListener('wpcf7submit', function (event) {
+                                        if (event.detail.contactFormId == $form.attr("id")) {
+                                            setTimeout(function () {
+                                                hideModal(modal);
+                                            }, 3000);
+                                        }
+                                    }, false);
+                                });
+                            }
+
+                            // Caldera Forms
+                            document.addEventListener( "cf.submission", function(event){
+                                // Pending, Caldera AJAX form submissions aren't working since Oxygen 2.2, see: https://github.com/soflyy/oxygen/issues/1638
+                            });
+
+                            // Ninja Forms
+                            jQuery(document).on("nfFormSubmitResponse", function(event, response){
+                                // Only close the modal if the event was triggered from a Ninja Form inside the modal
+                                if( $modal.find("#nf-form-" + response.id + "-cont").length > 0 ) {
+                                    setTimeout(function () {
+                                        hideModal(modal);
+                                    }, 3000);
+                                }
+                            });
+
+                        }
+
+                    })( modal );
+
+                });
+
+                // handle clicks on modal backdrop and on .oxy-close-modal
+                jQuery("body").on('click touchend', '.oxy-modal-backdrop, .oxy-close-modal', function( event ) {
+
+                    var $this = jQuery( this );
+                    var $target = jQuery( event.target );
+
+                    // Click event in the modal div and it's children is propagated to the backdrop
+                    if( !$target.hasClass( 'oxy-modal-backdrop' ) && !$this.hasClass( 'oxy-close-modal' ) ) {
+                        //event.stopPropagation();
+                        return;
+                    }
+
+                    if( $target.hasClass( 'oxy-modal-backdrop' ) && $this.hasClass( 'oxy-not-closable' ) ) {
+                        return;
+                    }
+
+                    if( $this.hasClass( 'oxy-close-modal' ) ) event.preventDefault();
+
+                    var $modal = $this.hasClass( 'oxy-close-modal' ) ? $this.closest('.oxy-modal-backdrop') : $this;
+                    hideModal( $modal[0] );
+                });
+
+                jQuery(document).keyup( function(e){
+                    if( e.key == 'Escape' ){
+                        jQuery(".oxy-modal-backdrop:visible").each(function(index){
+                            if( jQuery(this).data("close_on_esc") == 'on' ) hideModal(this);
+                        });
+                    }
+                } );
+
+            });
+
+		</script>
+
+	<script type='text/javascript' src='../../wp-content/plugins/contact-form-7/includes/swv/js/indexf2b4.js?ver=5.7.7' id='swv-js'></script>
+<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/spockanalytics.xyz\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../wp-content/plugins/contact-form-7/includes/js/indexf2b4.js?ver=5.7.7' id='contact-form-7-js'></script>
+<script type='text/javascript' id='wpcf7-redirect-script-js-extra'>
+/* <![CDATA[ */
+var wpcf7r = {"ajax_url":"https:\/\/spockanalytics.xyz\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../wp-content/plugins/wpcf7-redirect/build/js/wpcf7r-fe4963.js?ver=1.1' id='wpcf7-redirect-script-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/oxyextras/components/assets/inert8a54.js?ver=1.0.0' id='extras-inert-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/oxyextras/components/assets/offcanvas-init4bf4.js?ver=1.0.3' id='extras-offcanvas-js'></script>
+<script type="text/javascript" id="ct-footer-js"></script><style type="text/css" id="ct_code_block_css_100069">@font-face {
+  font-display: swap;
+}</style>
+<style type="text/css" id="ct_code_block_css_100020">.social-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+	width: 65%;
+}
+.social-icons a img {
+    width: 100%;
+}
+.social-icons a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}</style>
+<style type="text/css" id="ct_code_block_css_100045">.link-combine a{
+color:	#d9dbe1;
+
+}
+.link-combine {
+color:	#d9dbe1;
+font-size:14px;
+}</style>
+<style type="text/css" id="ct_code_block_css_100041">.footer-copyright{
+	    margin-top: 1%;
+    color: #fff;
+    font-size: 14px;
+	
+}
+.footer-credit, .footer-credit a{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	font-size: 14px;
+}
+.footer-credit img{
+	margin-left: 15%
+}
+@media only screen and (max-width: 768px){
+	.footer-copyright{
+		font-size: 14px;
+		width: 100%;
+		text-align: center;
+	}
+	#_nav_menu-59-17, .footer-credit, .footer-credit a{
+		    justify-content: center;
+	}
+}</style>
+<style type="text/css" id="ct_code_block_css_100072">.footer-copyright{
+	    margin-top: 1%;
+    color: #fff;
+    font-size: 14px;
+	
+}
+@media only screen and (max-width: 768px){
+	.footer-copyright{
+		font-size: 14px;
+		width: 100%;
+		text-align: center;
+	}
+	#_nav_menu-59-17{
+		    justify-content: center;
+	}
+}</style>
+<style type="text/css" id="ct_code_block_css_100066">.social-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+	width: 100%;
+}
+.social-icons a img {
+    width: 100%;
+}
+.social-icons a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+@media only screen and (max-width: 600px){
+	.social-icons {
+    
+    justify-content: center;
+	width: 100%;
+}
+	.social-icons a{
+		margin: 0 5%;
+	}
+}</style>
+<style type="text/css" id="ct_code_block_css_100070">
+.ticker-wrap {
+    position: absolute;
+    top: 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    overflow: hidden;
+  
+    background-color: #ca13ed;
+    /* box-sizing: content-box; */
+}
+.ticker-wrap .ticker {
+  display: inline-block;
+
+  white-space: nowrap;
+
+  box-sizing: content-box;
+}
+i.fa.fa-external-link {
+    margin-left: 5px;
+}
+.ticker-wrap .ticker__item a:hover {
+    text-decoration: underline;
+}
+.ticker-wrap .ticker img{
+	width: 14px;
+    margin-left: 5px;
+}
+.ticker-wrap .ticker__item {
+  display: inline-block;
+  padding: 0.6rem 0rem;
+  font-size: 15px;
+
+}
+.ticker-wrap .ticker__item a {
+
+    color: #000;
+
+
+@media screen and (max-width:1024px){
+	.ticker-wrap .ticker__item {
+
+  font-size: 14px;
+
+}
+}
+
+@media screen and (max-width:600px){
+
+.ticker-wrap .ticker {
+    white-space: inherit !Important;
+    text-align: center !important;
+
+}
+}
+@media screen and (max-width:340px){
+	.ticker-wrap .ticker__item {
+
+  font-size: 13px !Important;
+
+}
+}</style>
+<!-- /WP_FOOTER --> 
+</body>
+
+<!-- Mirrored from spockanalytics.xyz/updates/weekly-update-v-0-9-3/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Jul 2023 23:20:52 GMT -->
+</html>
+
+<!-- Cache served by breeze CACHE - Last modified: Thu, 06 Jul 2023 20:34:45 GMT -->
+
+<!-- plugin=object-cache-pro client=phpredis metric#hits=4028 metric#misses=38 metric#hit-ratio=99.1 metric#bytes=5314385 metric#prefetches=0 metric#store-reads=96 metric#store-writes=8 metric#store-hits=125 metric#store-misses=33 metric#sql-queries=51 metric#ms-total=1135.24 metric#ms-cache=32.45 metric#ms-cache-avg=0.3151 metric#ms-cache-ratio=2.9 sample#redis-hits=18758766 sample#redis-misses=1694125 sample#redis-hit-ratio=91.7 sample#redis-ops-per-sec=60 sample#redis-evicted-keys=0 sample#redis-used-memory=47201232 sample#redis-used-memory-rss=23080960 sample#redis-memory-fragmentation-ratio=0.5 sample#redis-connected-clients=1 sample#redis-tracking-clients=0 sample#redis-rejected-connections=0 sample#redis-keys=454 -->

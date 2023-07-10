@@ -1,0 +1,6 @@
+*.ini
+*/.txt
+*/.xml
+*.zip
+*.well-known
+*.log
